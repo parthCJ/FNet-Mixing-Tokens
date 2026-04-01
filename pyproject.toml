@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fnet-mixing"
+version = "0.1.0"
+description = "Resume-ready FNet text classification implementation in PyTorch"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Your Name" }]
+dependencies = [
+  "torch>=2.2.0,<2.9.0",
+  "datasets>=2.19.0",
+  "transformers>=4.39.0,<5.0.0",
+  "tqdm>=4.66.0",
+  "scikit-learn>=1.4.0"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

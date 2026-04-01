@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/fnet_mixing/__init__.py
+src/fnet_mixing/data.py
+src/fnet_mixing/model.py
+src/fnet_mixing/train.py
+src/fnet_mixing.egg-info/PKG-INFO
+src/fnet_mixing.egg-info/SOURCES.txt
+src/fnet_mixing.egg-info/dependency_links.txt
+src/fnet_mixing.egg-info/requires.txt
+src/fnet_mixing.egg-info/top_level.txt
+tests/test_fnet_model.py
