@@ -1,16 +1,3 @@
-"""
-FNet Inference Script - Test trained model on custom text
-
-WORKFLOW:
-    STEP 1: Train the model FIRST
-        C:/Users/CJ/.conda/envs/mlenv/python.exe scripts/train_ag_news.py --epochs 3 --hidden-size 256 --num-layers 4 --max-length 128 --train-subset 20000 --val-subset 5000
-        (takes 20-30 minutes, creates checkpoints/fnet_ag_news.pt)
-
-    STEP 2: After training is done, run inference (FAST)
-        C:/Users/CJ/.conda/envs/mlenv/python.exe scripts/inference.py --text "Your news text here" --device cuda
-        (outputs: predicted class + confidence)
-"""
-
 from __future__ import annotations
 
 import argparse
