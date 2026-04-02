@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "fnet-mixing"
 version = "0.1.0"
-description = "Resume-ready FNet text classification implementation in PyTorch"
+description = "FNet text classification implementation in PyTorch"
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [{ name = "Your Name" }]
