@@ -18,6 +18,10 @@ Then applies a position-wise feed-forward network with residual connections and 
 - Reproducible training and evaluation setup with accuracy + macro-F1
 - Unit tests for model forward and backward behavior
 
+## Research Paper Link:
+
+https://arxiv.org/pdf/2105.03824
+
 ## Project structure
 
 ```text
