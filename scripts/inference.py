@@ -21,7 +21,7 @@ def load_checkpoint(checkpoint_path: str, device: str = "cpu") -> tuple:
 
     return model, tokenizer, checkpoint["metrics"]
 
-
+       
 def predict(
     text: str, model, tokenizer, device: str = "cpu", max_length: int = 128
 ) -> dict:

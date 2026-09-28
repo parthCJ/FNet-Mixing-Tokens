@@ -13,7 +13,7 @@ def test_fnet_forward_shape() -> None:
         num_labels=4,
     )
     model = FNetForSequenceClassification(config)
-
+    
     input_ids = torch.randint(0, 999, (8, 32))
     attention_mask = torch.ones(8, 32, dtype=torch.long)
 
